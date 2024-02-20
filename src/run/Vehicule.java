@@ -12,7 +12,7 @@ public abstract class Vehicule {
 
     public final String matricule = "";
     private static String marque;
-    private static String classe;
+    public static String classe;
 
     final String getMarque() {
         return marque;
